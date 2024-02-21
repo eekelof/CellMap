@@ -45,8 +45,8 @@ units.delete("1");
 unit.pos.x = 35;
 units.update(unit);
 
-// get units in range
-const unitsInRange = g.ig.units.query(pos, radius);
+// get cells in range
+const cellsInRange = g.ig.units.query(pos, radius);
 for (const cell of unitsInRange) {
     for (const u of cell){
         console.log(u);
