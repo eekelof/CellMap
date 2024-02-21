@@ -15,12 +15,12 @@ Spatial Hash Grid that extends Map
 
 ## Installation
 
-### Using npm
+#### Using npm
 ```bash
 npm i @wingit/cellmap
 ```
 
-### Using bun
+#### Using bun
 ```bash
 bun i @wingit/cellmap
 ```
