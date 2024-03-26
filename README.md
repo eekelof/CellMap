@@ -29,8 +29,7 @@ bun i @wingit/cellmap
 ```javascript
 import CellMap from "@wingit/cellmap";
 
-// create a CellMap
-// params are width, height & cell size
+// create a CellMap(width, height, cell size)
 const units = new CellMap(100, 100, 10);
 
 // add a unit
@@ -47,7 +46,7 @@ units.update(unit);
 
 // get cells in range
 const cellsInRange = g.ig.units.query(pos, radius);
-for (const cell of unitsInRange) {
+for (const cell of cellsInRange) {
     for (const u of cell){
         console.log(u);
     }
