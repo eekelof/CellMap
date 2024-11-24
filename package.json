@@ -1,6 +1,6 @@
 {
     "name": "@wingit/cellmap",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Spatial Hash Grid that extends Map",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",

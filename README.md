@@ -35,7 +35,7 @@ const units = new CellMap(100, 100, 10);
 // add a unit
 // set hash to -1, it is used internally and gets reassigned when added
 const unit = { id: "1", hash: -1, pos: {x: 0, y: 0}, name: "Bob" };
-units.set(units.id, unit);
+units.set(unit.id, unit);
 
 // delete a unit
 units.delete("1");
